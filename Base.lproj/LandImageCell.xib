@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customCell" rowHeight="89" id="KGk-i7-Jjw" customClass="LandImageCell" customModule="GiniDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="259" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="259" height="88"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tmc-iy-C3F">
+                        <rect key="frame" x="11" y="13" width="240" height="66"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Tmc-iy-C3F" secondAttribute="trailing" constant="8" id="4bE-Pl-GSP"/>
+                    <constraint firstItem="Tmc-iy-C3F" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="QPa-mR-HBG"/>
+                    <constraint firstItem="Tmc-iy-C3F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="sTH-le-qCz"/>
+                    <constraint firstAttribute="bottom" secondItem="Tmc-iy-C3F" secondAttribute="bottom" constant="9" id="soh-FU-L7A"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="landImg" destination="Tmc-iy-C3F" id="V1Z-wd-dvg"/>
+            </connections>
+            <point key="canvasLocation" x="394.5" y="123.5"/>
+        </tableViewCell>
+    </objects>
+</document>

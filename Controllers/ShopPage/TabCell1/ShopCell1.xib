@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="yugothil.ttf">
+            <string>YuGothic-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="ShopCell1" customModule="GiniDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="168" height="296"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="168" height="296"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vm2-1d-y7z">
+                        <rect key="frame" x="8" y="13" width="37" height="22"/>
+                        <state key="normal" image="New1"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HyF-Ey-WZe">
+                        <rect key="frame" x="31" y="38" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="0WE-sS-JAZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アンゴラニットワン" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naR-ro-gQ9">
+                        <rect key="frame" x="8" y="171" width="108" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="cIQ-nG-irC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="YuGothic-Light" family="Yu Gothic" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9x-HD-UxU">
+                        <rect key="frame" x="8" y="200" width="17" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="VPv-1q-dge"/>
+                        </constraints>
+                        <state key="normal" image="Action"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥8,600" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yK-OM-DRf">
+                        <rect key="frame" x="37" y="208" width="40" height="14"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                        <color key="textColor" red="1" green="0.054231208349999997" blue="0.084760437369999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥9,800" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7h-fv-dsL">
+                        <rect key="frame" x="36" y="194" width="40" height="14"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDM-Mu-4TN">
+                        <rect key="frame" x="8" y="145" width="64" height="22"/>
+                        <state key="normal" image="limited1"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndJ-87-afc">
+                        <rect key="frame" x="5" y="239" width="158" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="158" id="8q0-20-LhQ"/>
+                            <constraint firstAttribute="height" constant="35" id="smq-h8-EAz"/>
+                        </constraints>
+                        <state key="normal" image="AddCartShop"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="5yK-OM-DRf" firstAttribute="top" secondItem="x7h-fv-dsL" secondAttribute="bottom" id="0di-dx-OBh"/>
+                <constraint firstItem="ndJ-87-afc" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="7iz-F7-82E"/>
+                <constraint firstItem="vm2-1d-y7z" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="7ys-5W-d6W"/>
+                <constraint firstItem="HyF-Ey-WZe" firstAttribute="top" secondItem="vm2-1d-y7z" secondAttribute="bottom" constant="3" id="9dj-mj-K4W"/>
+                <constraint firstItem="vm2-1d-y7z" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="BTt-fI-1XO"/>
+                <constraint firstItem="naR-ro-gQ9" firstAttribute="top" secondItem="nDM-Mu-4TN" secondAttribute="bottom" constant="4" id="EIZ-je-7Q0"/>
+                <constraint firstAttribute="trailing" secondItem="HyF-Ey-WZe" secondAttribute="trailing" constant="37" id="EPu-1M-Gy4"/>
+                <constraint firstItem="x7h-fv-dsL" firstAttribute="leading" secondItem="w9x-HD-UxU" secondAttribute="trailing" constant="11" id="L2R-zo-fpv"/>
+                <constraint firstItem="nDM-Mu-4TN" firstAttribute="top" secondItem="HyF-Ey-WZe" secondAttribute="bottom" constant="7" id="XzX-Vz-Lnj"/>
+                <constraint firstItem="5yK-OM-DRf" firstAttribute="leading" secondItem="w9x-HD-UxU" secondAttribute="trailing" constant="12" id="Zis-jK-iLY"/>
+                <constraint firstItem="w9x-HD-UxU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="c3m-EX-5kr"/>
+                <constraint firstItem="w9x-HD-UxU" firstAttribute="top" secondItem="naR-ro-gQ9" secondAttribute="bottom" constant="8" id="cKV-4L-0gg"/>
+                <constraint firstItem="ndJ-87-afc" firstAttribute="top" secondItem="5yK-OM-DRf" secondAttribute="bottom" constant="17" id="i75-sg-xuJ"/>
+                <constraint firstItem="x7h-fv-dsL" firstAttribute="top" secondItem="naR-ro-gQ9" secondAttribute="bottom" constant="2" id="mJi-VF-8H0"/>
+                <constraint firstItem="naR-ro-gQ9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="poZ-qO-6Gn"/>
+                <constraint firstItem="HyF-Ey-WZe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="31" id="stt-42-MKR"/>
+                <constraint firstItem="nDM-Mu-4TN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="xzd-X8-8Wk"/>
+            </constraints>
+            <size key="customSize" width="168" height="296"/>
+            <connections>
+                <outlet property="discLb" destination="naR-ro-gQ9" id="JsC-3N-yMO"/>
+                <outlet property="img" destination="HyF-Ey-WZe" id="rf3-TI-r6m"/>
+                <outlet property="prize1" destination="x7h-fv-dsL" id="Zoj-zn-vHH"/>
+                <outlet property="prize2" destination="5yK-OM-DRf" id="VRk-Zf-tVp"/>
+            </connections>
+            <point key="canvasLocation" x="-46" y="206"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Action" width="17" height="25"/>
+        <image name="AddCartShop" width="158" height="35"/>
+        <image name="New1" width="37" height="20"/>
+        <image name="limited1" width="64" height="20"/>
+    </resources>
+</document>
